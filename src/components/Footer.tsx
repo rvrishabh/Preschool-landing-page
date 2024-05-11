@@ -3,11 +3,11 @@ import footerLogo from "../assets/images/footerLogo.png";
 const Footer = () => {
   return (
     <div className="mt-16">
-      <div className="bg-[url('./assets/images/cloud.png')] bg-center bg-no-repeat bg-cover h-[90%]">
+      <div className="bg-[url('./assets/images/cloud.png')] bg-top bg-no-repeat bg-cover">
         <div className="flex justify-center pr-28 pt-16">
           <img src={footerLogo} alt="logo" height={100} width={200} />
         </div>
-        <div className=" flex flex-col justify-center items-center bg-[url('./assets/images/footer-pattern.png')] bg-bottom bg-no-repeat bg-contain h-screen">
+        <div className=" flex flex-col justify-center items-center bg-[url('./assets/images/footer-pattern.png')] bg-bottom bg-no-repeat bg-contain py-24 ">
           <div className="flex justify-center gap-32 ">
             <div>
               <div className="pb-3 uppercase">Discover Welmont</div>
@@ -48,7 +48,7 @@ const Footer = () => {
               <div className="pb-3 uppercase">Blog</div>
             </div>
           </div>
-          <div className="pt-12">
+          <div className="pt-8">
             <input
               className="w-[900px] bg-[#d0d0d0] rounded-lg py-2 ::placeholder text-[#6c6c6c] px-6"
               type="text"
