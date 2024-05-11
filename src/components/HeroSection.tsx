@@ -4,7 +4,7 @@ import heroText from "../assets/images/hero-text.png";
 const HeroSection = () => {
   return (
     <div className="bg-[url('./assets/images/hero-top.png')] bg-right-top bg-no-repeat bg-auto">
-      <div className="bg-[url('./assets/images/hero-layer.png')] bg-bottom bg-no-repeat bg-auto h-[90vh]">
+      <div className="bg-[url('./assets/images/hero-layer.png')] bg-bottom bg-no-repeat bg-contain h-[90vh]">
         <div className="bg-[url('./assets/images/hero-design.png')] bg-bottom bg-no-repeat bg-contain h-[90vh]">
           <div className="pl-36 pt-20 flex items-center gap-8">
             <div>
