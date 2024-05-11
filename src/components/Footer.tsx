@@ -3,12 +3,12 @@ import footerLogo from "../assets/images/footerLogo.png";
 const Footer = () => {
   return (
     <div className="mt-16">
-      <div className="bg-[url('./assets/images/cloud.png')] bg-top bg-no-repeat bg-cover h-screen">
-        <div className="relative flex flex-col justify-center items-center bg-[url('./assets/images/footer-pattern.png')] bg-bottom bg-no-repeat bg-contain h-screen">
-          <div className="absolute left-[40%] top-16">
-            <img src={footerLogo} alt="logo" height={100} width={200} />
-          </div>
-          <div className="flex justify-center gap-32 pt-64">
+      <div className="bg-[url('./assets/images/cloud.png')] bg-center bg-no-repeat bg-cover h-full">
+        <div className="flex justify-center pr-28 pt-16">
+          <img src={footerLogo} alt="logo" height={100} width={200} />
+        </div>
+        <div className=" flex flex-col justify-center items-center bg-[url('./assets/images/footer-pattern.png')] bg-bottom bg-no-repeat bg-contain h-screen">
+          <div className="flex justify-center gap-32 ">
             <div>
               <div className="pb-3 uppercase">Discover Welmont</div>
               <div className="flex flex-col">
