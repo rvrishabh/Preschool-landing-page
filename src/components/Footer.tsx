@@ -3,7 +3,7 @@ import footerLogo from "../assets/images/footerLogo.png";
 const Footer = () => {
   return (
     <div className="mt-16">
-      <div className="bg-[url('./assets/images/cloud.png')] bg-center bg-no-repeat bg-cover h-full">
+      <div className="bg-[url('./assets/images/cloud.png')] bg-center bg-no-repeat bg-cover h-[90%]">
         <div className="flex justify-center pr-28 pt-16">
           <img src={footerLogo} alt="logo" height={100} width={200} />
         </div>
